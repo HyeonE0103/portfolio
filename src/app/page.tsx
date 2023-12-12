@@ -1,9 +1,10 @@
-import { Intro } from '@/components';
+import { About, Intro } from '@/components';
 
 export default function Home() {
   return (
     <main>
-      <Intro />
+      {/* <Intro /> */}
+      <About />
     </main>
   );
 }
