@@ -26,7 +26,6 @@ export default function RootLayout({
       <body className={notoSansKr.className}>
         <Header />
         <main>{children}</main>
-        <UnderButton />
       </body>
     </html>
   );
