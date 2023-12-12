@@ -4,7 +4,7 @@ import React from 'react';
 export const Header = () => {
   const kind = ['INTRO', 'ABOUT', 'SKILL', 'PROJECT', 'CONTACT'];
   return (
-    <div className="fixed flex h-20 w-screen items-center justify-between px-7">
+    <div className="z-50 fixed flex h-20 w-screen items-center justify-between px-7">
       <Image
         src={
           'https://res.cloudinary.com/dozkdbzkh/image/upload/v1701953368/portfolio/gy734g0aukkhrxvy7cax.png'
