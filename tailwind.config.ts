@@ -5,6 +5,10 @@ const plugin = require('tailwindcss/plugin');
 module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx,mdx}'],
   theme: {
+    screens: {
+      md: '750px',
+      lg: '1350px',
+    },
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
@@ -17,18 +21,5 @@ module.exports = {
       },
     },
   },
-  plugins: [
-    plugin(function ({ addUtilities }: { addUtilities: any }) {
-      addUtilities({
-        '.content-area': {
-          '@apply relative flex h-screen w-screen border-2 border-red-600 bg-slate-400 p-5':
-            '',
-        },
-        '.center-layout': {
-          '@apply relative grid h-screen w-screen place-items-center border-2 border-red-600 bg-slate-400 p-5':
-            '',
-        },
-      });
-    }),
-  ],
+  plugins: [],
 };
