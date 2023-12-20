@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -25,4 +26,11 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+.layout {
+  @apply relative flex h-screen w-screen items-center justify-center;
+}
+.layout-item {
+  @apply h-full w-full lg:w-[950px] md:w-[650px];
 }
