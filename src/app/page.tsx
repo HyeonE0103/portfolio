@@ -1,10 +1,11 @@
-import { About, Intro } from '@/components';
+import { About, Intro, Skill } from '@/components';
 
 export default function Home() {
   return (
     <main>
-      {/* <Intro /> */}
-      <About />
+      {/* <Intro />
+      <About /> */}
+      <Skill />
     </main>
   );
 }
