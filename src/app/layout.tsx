@@ -5,7 +5,7 @@ import { Header, UnderButton } from '@/components/common';
 
 const notoSansKr = Noto_Sans_KR({
   subsets: ['latin'],
-  weight: ['100', '500', '700', '900'],
+  weight: ['300', '500', '700', '900'],
 });
 
 export const metadata: Metadata = {
